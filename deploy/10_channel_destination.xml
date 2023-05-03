@@ -1,0 +1,11 @@
+<channel-adaptor name='server-channel' logger="Q2">
+    <channel class="org.jpos.iso.channel.ASCIIChannel"
+             packager="org.jpos.iso.packager.ISO93APackager">
+        <property name="host" value="localhost" />
+        <property name="port" value="9000" />
+        <property name="timeout" value="300000"/>
+    </channel>
+    <in>channel-send</in>
+    <out>channel-receive</out>
+    <reconnect-delay>10000</reconnect-delay>
+</channel-adaptor>

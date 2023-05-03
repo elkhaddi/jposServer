@@ -1,0 +1,12 @@
+<server name="server-simulator" class="org.jpos.q2.iso.QServer" logger="Q2">
+    <attr name="port" type="java.lang.Integer">8090</attr>
+    <channel name="server-channel"
+             class="org.jpos.iso.channel.ASCIIChannel"
+             packager="org.jpos.iso.packager.ISO87APackager" logger="Q2">
+        <property name="timeout" value="300000" />
+    </channel>
+    <request-listener class="com.server.serversimulator.RequestListener" logger="Q2"
+                      realm="incoming-request-listener">
+        <property name="timeout" value="60000" />
+    </request-listener>
+</server>
