@@ -7630,3 +7630,129 @@ name-registrar:
     00
     Demande de transaction :  In: 1200 123456
 </log>
+<log realm="channel/127.0.0.1:61003" at="2023-05-03T23:07:25.993027300" lifespan="300002ms">
+  <receive>
+    <io-timeout/>
+  </receive>
+</log>
+<log realm="server-simulator.server.session/127.0.0.1:61003" at="2023-05-03T23:07:25.997016">
+  <session-end/>
+</log>
+<log realm="server-simulator.server.session/127.0.0.1:61159" at="2023-05-03T23:07:36.007162500">
+  <session-start/>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.440303900">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.467940700">
+  <info>
+    shutting down
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.469089700">
+  <trace>
+    undeploying:C:\Users\HP\IdeaProjects\serversimulator\deploy\99_sysmon.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-05-03T23:09:22.469935700">
+  <info>
+    Stopping SystemMonitor
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.470932100">
+  <info>
+    undeployed:C:\Users\HP\IdeaProjects\serversimulator\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.471930100">
+  <trace>
+    undeploying:C:\Users\HP\IdeaProjects\serversimulator\deploy\50_serversimulator.xml
+  </trace>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.473924400">
+  <info>
+    undeployed:C:\Users\HP\IdeaProjects\serversimulator\deploy\50_serversimulator.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.474922800">
+  <trace>
+    undeploying:C:\Users\HP\IdeaProjects\serversimulator\deploy\10_channel_destination.xml
+  </trace>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="2023-05-03T23:09:22.476917300">
+  <info>
+           OS: Windows 10 (10.0)
+         Java: 17.0.6 (Oracle Corporation) AES-secure
+  environment: default
+ process name: 11996@DESKTOP-RDRCMIO
+    user name: HP
+         host: DESKTOP-RDRCMIO/10.11.2.247
+          cwd: C:\Users\HP\IdeaProjects\serversimulator
+   free space: 188,2 GiB
+      version: 2.1.7 (7079725)
+     instance: e5b0a707-0101-4cee-9dc4-744deb2b5638
+       uptime: 00:07:24.329 (-1,000000)
+   processors: 4
+       drift : 0
+memory(t/u/f): 114/58/55
+     encoding: UTF-8
+     timezone: Africa/Casablanca (Heure d'Europe de l'Ouest) +01:00
+watch service: sun.nio.fs.WindowsWatchService
+  metrics dir: log
+   transition: 2024-03-10T02:00:00Z (2024-03-10T02:00Z[Africa/Casablanca])
+        clock: 1683151762 2023-05-03T22:09:22.470451500Z
+ thread count: 21
+ peak threads: 39
+ user threads: 14
+        Thread[Reference Handler,10,system]
+        Thread[Finalizer,8,system]
+        Thread[Signal Dispatcher,9,system]
+        Thread[Attach Listener,5,system]
+        Thread[Notification Thread,9,system]
+        Thread[SIGINT handler,9,system]
+        Thread[Monitor Ctrl-Break,5,main]
+        Thread[pool-1-thread-1,5,main]
+        Thread[Q2-e5b0a707-0101-4cee-9dc4-744deb2b5638,5,main]
+        Thread[FileSystemWatchService,5,main]
+        Thread[Timer-0,5,main]
+        Thread[Live Reload Server,5,main]
+        Thread[pool-2-thread-1,5,main]
+        Thread[DestroyJavaVM,5,main]
+        Thread[channel-sender-channel-send,5,main]
+        Thread[channel-receiver-channel-receive,5,main]
+        Thread[SystemMonitor,5,main]
+        Thread[Q2-ShutdownHook,5,main]
+        Thread[ISOServer-shutdown,5,main]
+        Thread[server-simulator-ThreadPool.PooledThread-0-running,5,server-simulator-ThreadPool-0]
+        Thread[Common-Cleaner,8,InnocuousThreadGroup]
+name-registrar:
+  tspace:default: org.jpos.space.TSpace
+     key-count: 0
+        gcinfo: 0,0
+  logger.Q2: org.jpos.util.Logger
+  server-channel: org.jpos.q2.iso.ChannelAdaptor
+    tx=0, rx=0, connects=0, last=0
+  channel.server-channel: org.jpos.iso.channel.ASCIIChannel
+  </info>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.477914200">
+  <info>
+    undeployed:C:\Users\HP\IdeaProjects\serversimulator\deploy\10_channel_destination.xml
+  </info>
+</log>
+<log realm="channel/127.0.0.1:61159" at="2023-05-03T23:09:22.481903500" lifespan="106473ms">
+  <receive>
+    <peer-disconnect/>
+  </receive>
+</log>
+<log realm="Q2.system" at="2023-05-03T23:09:22.481903500">
+  <trace>
+    undeploying:C:\Users\HP\IdeaProjects\serversimulator\deploy\00_logger.xml
+  </trace>
+</log>
+<log realm="server-simulator.server.session/127.0.0.1:61159" at="2023-05-03T23:09:22.481903500">
+  <session-end/>
+</log>
+</logger>
